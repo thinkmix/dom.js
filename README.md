@@ -74,25 +74,3 @@ var parent=$('#app').parent()
 ```javascript
 var siblings=$('#app').siblings('div')
 ```
-
-## post
-
-ajax,post请求接口
-
-```javascript
-$.post('app.php',{'data':'app'},function(data){/*-------*/})
-```
-## get
-
-ajax,get请求接口
-
-```javascript
-$.get('app.php?data=app',function(data){/*-------*/})
-```
-## getJSON
-
-ajax,跨域请求接口
-
-```javascript
-$.getJSON('app.php',{'data':'app'},function(data){/*-------*/})
-```
